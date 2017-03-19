@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="comqq.example.asus_pc.baidudemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_myself"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自己"/>
+        <Button
+            android:id="@+id/btn_searcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学校" />
+
+        <Button
+            android:id="@+id/btn_delicacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美食" />
+        <Button
+            android:id="@+id/btn_quanjin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全景" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重置" />
+    </LinearLayout>
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
